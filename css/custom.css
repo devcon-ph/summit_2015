@@ -1,0 +1,47 @@
+@media (max-width: 480px) {
+    h1{font-size: 20px} 
+    h2{font-size: 18px;}
+    h3, section h3.section-subheading{font-size: 16px} 
+    header .intro-text .intro-heading, header .intro-text p{font-size: 16px; text-align: center; }
+    .reg{ padding: 2px 15px;font-size: 15px; text-align: center; }
+    .hexagon1- {margin:0 0 60px 10%;}
+}
+@media (min-width: 480px) and (max-width: 768px){
+     .hexagon1- {margin:0 0 60px 25%;}
+}
+@media(max-width:768px) {
+    header .intro-text .intro-heading, header .intro-text p{font-size: 20px; text-align: center; }
+    .btn-xl{padding: 10px 20px; font-size: 15px; text-align: center; }
+    .navbar-nav li {float: none; display: block;}
+    .hexagon1 {margin-bottom: 60px;}
+    section#agenda h5{text-align: center; }
+    .v-mid img{ position: static; display: inline; margin: 10px 0px;}
+    section#venue .tab-content{width: 100%}
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .hexagon1- { margin-bottom: 45px;}
+    .hexagon1 { margin-bottom: 45px;}
+}
+@media (max-width: 991px) {
+    .intro-text .lead-bot{position: static;}
+}
+@media(min-width:768px) {
+    .navbar-default { padding: 25px 0; border: 0; background-color: transparent; -webkit-transition: padding .3s; -moz-transition: padding .3s; transition: padding .3s;}
+    .navbar-default .navbar-brand {font-size: 2em;  -webkit-transition: all .3s; -moz-transition: all .3s; transition: all .3s; }
+    .navbar-default .navbar-nav>.active>a { border-radius: 3px; }
+    .navbar-default.navbar-shrink {padding: 10px 0; background-color: #222;}
+    .navbar-default.navbar-shrink .navbar-brand {font-size: 1.5em;}
+    .navbar-nav{ width: 98%}
+}
+@media(max-width:1082px){
+    header .intro-text .intro-heading, header .intro-text p{text-align: center;}
+    .reg{text-align: center;}
+    .hex1{display: none;}
+    .row1, .row2{position: static;}
+    .reg{margin-left: 0px;}
+    header .intro-text .date p{margin-right: 0px;}
+}
+@media (min-width: 768px) and (max-width: 1280px){
+.hexagon1- {margin: 0 0 60px -68px;}
+.hexagon1-{width: 300px;}
+}
