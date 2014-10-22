@@ -315,6 +315,11 @@ section#speakerspanel img{
     top:-190px;
     left: 49px;
 }
+.row3{
+    position: relative;
+    top:-340px;
+    left: 97px;
+}
 section#speakerspanel a{
     cursor: pointer;
 }
@@ -386,6 +391,10 @@ section#agenda h4.section-subheading {
 section#agenda .a-left h5{
     font-weight: 300;
 }
+section#agenda .a-left h5 a{
+    font-weight: 300;
+    color: #ffffff;
+}
 section#agenda li{
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -449,7 +458,7 @@ section#venue .tab-content-wrap .tab-content #profile{
     overflow: auto;
 }
 section#venue .tab-content{
-    width: 83%;
+    width: 81%;
     height: 253px;
 }
 .v-mid img{

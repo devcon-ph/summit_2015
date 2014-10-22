@@ -37,7 +37,8 @@
     header .intro-text .intro-heading, header .intro-text p{text-align: center;}
     .reg{text-align: center;}
     .hex1{display: none;}
-    .row1, .row2{position: static;}
+    .row1, .row2, .row3{position: static;}
+    section#speakerspanel .wrap hr.hrl{width: 30%;}
     .reg{margin-left: 0px;}
     header .intro-text .date p{margin-right: 0px;}
 }
