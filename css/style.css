@@ -5,7 +5,6 @@ body {
     color: #272626;
     background: #ffffff;
 }
-
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
@@ -13,7 +12,6 @@ h1, h2, h3, h4, h5, h6 {
 hr{
     border-color:transparent;
 }
-
 .btn-primary {
     border-color: #2dbb28;
     text-transform: uppercase;
@@ -22,17 +20,14 @@ hr{
     color: #fff;
     background-color: #2dbb28;
 }
-
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
     border-color: #f6bf01;
     color: #fff;
     background-color: #edd740;
 }
-
 .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
     background-image: none;
 }
-
 .reg{
     text-align: left;
     margin-left: 10px;
@@ -49,60 +44,37 @@ hr{
     background-color: #4b8f1d;
     text-align: left;
 }
-
-.btn-xl:hover,
-.btn-xl:focus,
-.btn-xl:active,
-.btn-xl.active,
-.open .dropdown-toggle.btn-xl {
+.btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
     border-color: #4e941e;
     color: #fff;
     background-color: #4e941e;
     -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; 
 }
-
-
-.btn-xl .badge {
-    color: #2dbb28;
-    background-color: #fff;
-}
-
 .navbar-default {
     border-color: transparent;
     background-color: #222;
 }
-
 .navbar-default .navbar-brand {
     font-family: 'Noto Sans', sans-serif;
     color: #2dbb28;
     text-indent: -9999px;
 }
-
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:active,
-.navbar-default .navbar-brand.active {
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
     color: #edd740;
 }
-
 .navbar-default .navbar-collapse {
     border-color: rgba(255,255,255,.02);
 }
-
 .navbar-default .navbar-toggle {
     border-color: #2dbb28;
     background-color: #2dbb28;
 }
-
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
 }
-
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     background-color: #2dbb28;
 }
-
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
@@ -111,22 +83,17 @@ hr{
     color: #fff;
     cursor: pointer;
 }
-
-.navbar-default .nav li a:hover,
-.navbar-default .nav li a:focus {
+.navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
     outline: 0;
     color: #2dbb28;
     -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; 
 }
-
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
     background-color: #2dbb28;
 }
-
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
+.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
     background-color: #edd740;
 }
@@ -163,7 +130,7 @@ header .intro-text .intro-heading {
 .intro-text img{
     display: inline;
 }
- section {
+section {
     padding: 150px 0;
 }
 header .intro-text .lead-bot a{
@@ -215,8 +182,7 @@ header .intro-text p.intro-sub {
     margin-right: 25px;
 }
 
-.hex1:after,
-.hex1:before{
+.hex1:after, .hex1:before{
     border-left: 10.5px solid transparent;
     border-right: 10.5px solid transparent;
     content: "";
@@ -317,7 +283,7 @@ section#speakerspanel img{
 }
 .row3{
     position: relative;
-    top:-340px;
+    top:-360px;
     left: 97px;
 }
 section#speakerspanel a{
@@ -399,7 +365,6 @@ section#agenda li{
     font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
-
 /*-----------Venue------*/
 section#venue{
     background-attachment: scroll;
@@ -474,7 +439,7 @@ section#venue .v-wrap2 .col-sm-6{
 section#venue .v-wrap2 iframe{
     max-width: 100%
 }
-/*-----------Venue------*/
+/*-----------Register------*/
 section#register{
     background-attachment: scroll;
     background: url(../img/header6-bg.png) #ffffff;
@@ -546,12 +511,10 @@ h3#myModalLabel2{
     font-family: 'Abel', sans-serif;
 }
 /*--------footer-------------*/
-
 footer {
     padding: 25px 0;
     text-align: center;
 }
-
 footer ul li a{
     color: #3d454f;
     text-transform: uppercase;
@@ -567,9 +530,6 @@ footer span.copyright {
     line-height: 40px;
     color:#3d454f;
 }
-
-footer .container img{ display: inline;}
-
-body {
-    webkit-tap-highlight-color: #2dbb28;
+footer .container img{ 
+    display: inline;
 }

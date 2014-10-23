@@ -43,6 +43,6 @@
     header .intro-text .date p{margin-right: 0px;}
 }
 @media (min-width: 768px) and (max-width: 1280px){
-.hexagon1- {margin: 0 0 60px -68px;}
-.hexagon1-{width: 300px;}
+    .hexagon1- {margin: 0 0 60px -68px;}
+    .hexagon1-{width: 300px;}
 }
