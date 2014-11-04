@@ -10,7 +10,7 @@
 @media (min-width: 480px) and (max-width: 768px){
      .hexagon1- {margin:0 0 60px 25%;}
 }
-@media(max-width:768px) {
+@media(max-width:767px) {
     header .intro-text .intro-heading, header .intro-text p{font-size: 20px; text-align: center; }
     .btn-xl{padding: 10px 20px; font-size: 15px; text-align: center; }
     .navbar-nav li {float: none; display: block;}
