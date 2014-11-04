@@ -62,8 +62,8 @@
 @media(min-width: 992px) and (max-width: 1081px){
     .row.sp-wrapper, .row2.sp-wrapper, .row3.sp-wrapper, .row4.sp-wrapper {float: none;}
     .row1, .row2, .row3, .row4{position: relative;}
-    .row2{left: 24px;}
-    .row3{left: 62px;}
+    .row2{left: 38px;}
+    .row3{left: 78px;}
     .row4{left: 20px}
 }
 
