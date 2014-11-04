@@ -259,6 +259,7 @@ section#speakerspanel{
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    padding-bottom: 0px;
 }
 section#speakerspanel h2{
     color: #ee661e;
@@ -272,6 +273,7 @@ section#speakerspanel img{
     display: inline;
     margin-bottom: 15px;
 }
+
 .row1{
     position: relative;
     top:-99px;
@@ -283,8 +285,13 @@ section#speakerspanel img{
 }
 .row3{
     position: relative;
-    top:-360px;
+    top:-380px;
     left: 97px;
+}
+.row4{
+    position: relative;
+    top:-460px;
+    left: 50px;
 }
 section#speakerspanel a{
     cursor: pointer;
@@ -309,12 +316,24 @@ section#speakerspanel .wrap{
 	position:relative;
 	top:-172px;
 }
-section#speakerspanel .wrap h3, section#speakerspanel .wrap p{
+section#speakerspanel .wrap2{
+    position:relative;
+    top:-182px;
+}
+section#speakerspanel .wrap3{
+    position:relative;
+    top:-110px;
+}
+section#speakerspanel .wrap h3, section#speakerspanel .wrap2 h3, section#speakerspanel .wrap3 h3, section#speakerspanel .wrap p, section#speakerspanel .wrap2 p{
 	text-transform:uppercase;
 	color:#ffffff;
 	margin-bottom:1px;
+    padding: 0px 10px;
 }
-section#speakerspanel .wrap p.bot{
+section#speakerspanel .wrap3 p{
+    font-size: 12px;
+}
+section#speakerspanel .wrap p.bot, section#speakerspanel .wrap2 p.bot, section#speakerspanel .wrap3 p.bot{
 	color:#ffffff;
 	text-transform:none;
 }
@@ -325,11 +344,17 @@ section#speakerspanel .sp-wrapper2 a, section#speakerspanel .sp-wrapper2 h3, sec
     text-decoration:none;
     color: #000000;
 }
-section#speakerspanel .wrap hr.hrl{
+section#speakerspanel .wrap hr.hrl, section#speakerspanel .wrap2 hr.hrl{
     border-color:#ffffff;
     width: 60%;
 	margin-top:10px;
 	margin-bottom:10px;
+}
+section#speakerspanel .wrap3 hr.hrl{
+    border-color:#ffffff;
+    width: 60%;
+    margin-top:5px;
+    margin-bottom:5px;
 }
 /*-----------agenda------*/
 section#agenda{
@@ -378,11 +403,11 @@ section#venue{
     color:#ffffff;
 }
 section#venue h2{
-    color: #3fb9ed;
+    color: #0773f8;
     text-transform: uppercase;
 }
 section#venue hr.hrl{
-    border-color:#3fb9ed;
+    border-color:#0773f8;
     width: 50%;
 }
 section#venue .tab-content p{
@@ -479,8 +504,13 @@ section#sponsor hr.hrl{
 section#sponsor h3{
     text-transform: uppercase;
     color: #3d454f;
+    text-decoration: underline;
 }
-
+section#sponsor h3.bot{
+    text-transform: uppercase;
+    color: #3d454f;
+    text-decoration: none;
+}
 section#sponsor a{
     color: #272626;
     text-decoration: underline;

@@ -5,6 +5,7 @@
     header .intro-text .intro-heading, header .intro-text p{font-size: 16px; text-align: center; }
     .reg{ padding: 2px 15px;font-size: 15px; text-align: center; }
     .hexagon1- {margin:0 0 60px 10%;}
+    img.sp-img{left: 15%}
 }
 @media (min-width: 480px) and (max-width: 768px){
      .hexagon1- {margin:0 0 60px 25%;}
@@ -37,12 +38,22 @@
     header .intro-text .intro-heading, header .intro-text p{text-align: center;}
     .reg{text-align: center;}
     .hex1{display: none;}
-    .row1, .row2, .row3{position: static;}
-    section#speakerspanel .wrap hr.hrl{width: 30%;}
+    .row1, .row2, .row3, .row4{position: static;}
+    section#speakerspanel .wrap hr.hrl, section#speakerspanel .wrap hr.hrl, section#speakerspanel .wrap2 hr.hrl{width: 30%;}
+    section#speakerspanel .wrap3 hr.hrl{width: 18%;}
     .reg{margin-left: 0px;}
     header .intro-text .date p{margin-right: 0px;}
 }
 @media (min-width: 768px) and (max-width: 1280px){
     .hexagon1- {margin: 0 0 60px -68px;}
     .hexagon1-{width: 300px;}
+}
+
+@media(min-width: 1082px) and (max-width: 2000px){
+    .row.sp-wrapper, .row2.sp-wrapper, .row3.sp-wrapper, .row4.sp-wrapper {float: left; height: 300px; width: 100%;}
+    .row1, .row2, .row3{ top: 0px;}
+    .row4{ top: 50px;}
+}
+@media(min-width: 991px) and (max-width: 1199px){
+    .row.sp-wrapper, .row2.sp-wrapper, .row3.sp-wrapper, .row4.sp-wrapper {float: left; height: 250px; width: 100%;}
 }
