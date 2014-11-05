@@ -293,6 +293,9 @@ section#speakerspanel img{
     top:-460px;
     left: 50px;
 }
+.row2 .row{
+    margin-right: 0px;
+}
 section#speakerspanel a{
     cursor: pointer;
 }
@@ -332,6 +335,11 @@ section#speakerspanel .wrap h3, section#speakerspanel .wrap2 h3, section#speaker
 }
 section#speakerspanel .wrap3 p{
     font-size: 12px;
+    color: #ffffff;
+    margin:0 auto;
+}
+section#speakerspanel .wrap3 h4{
+    color: #ffffff;
 }
 section#speakerspanel .wrap p.bot, section#speakerspanel .wrap2 p.bot, section#speakerspanel .wrap3 p.bot{
 	color:#ffffff;
@@ -353,8 +361,8 @@ section#speakerspanel .wrap hr.hrl, section#speakerspanel .wrap2 hr.hrl{
 section#speakerspanel .wrap3 hr.hrl{
     border-color:#ffffff;
     width: 60%;
-    margin-top:5px;
-    margin-bottom:5px;
+    margin-top:3px;
+    margin-bottom:3px;
 }
 /*-----------agenda------*/
 section#agenda{
