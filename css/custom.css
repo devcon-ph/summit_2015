@@ -2,16 +2,14 @@
     h1{font-size: 20px} 
     h2{font-size: 18px;}
     h3, section h3.section-subheading{font-size: 16px} 
-    header .intro-text .intro-heading, header .intro-text p{font-size: 16px; text-align: center; }
-    .reg{ padding: 2px 15px;font-size: 15px; text-align: center; }
-    .hexagon1- {margin:0 0 60px 10%;}
-    img.sp-img{left: 15%}
+    header .intro-text .intro-heading, header .intro-text p{font-size: 16px; }
+    section#paneldiscussion{padding:50px;}
 }
 @media (min-width: 480px) and (max-width: 768px){
      .hexagon1- {margin:0 0 60px 25%;}
 }
 @media(max-width:767px) {
-    header .intro-text .intro-heading, header .intro-text p{font-size: 20px; text-align: center; }
+    header .intro-text .intro-heading, header .intro-text p{font-size: 20px; }
     .btn-xl{padding: 10px 20px; font-size: 15px; text-align: center; }
     .navbar-nav li {float: none; display: block;}
     .hexagon1 {margin-bottom: 60px;}
@@ -30,42 +28,65 @@
     .g-row{margin-top: auto;}
 }
 @media(min-width:768px) {
-    .navbar-default { padding: 25px 0; border: 0; background-color: transparent; -webkit-transition: padding .3s; -moz-transition: padding .3s; transition: padding .3s;}
+    .navbar-default {
+    border-color: transparent;
+    background: rgb(200, 54, 54); /* The Fallback */
+    background: rgba(200, 54, 54, 0.5); 
+     background: rgb(30,87,153); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgb(30,87,153) 0%, rgb(32,124,202) 0%, rgb(223,195,44) 0%, rgb(221,96,46) 100%, rgb(32,124,202) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgb(30,87,153)), color-stop(0%,rgb(32,124,202)), color-stop(0%,rgb(223,195,44)), color-stop(100%,rgb(221,96,46)), color-stop(100%,rgb(32,124,202))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgb(30,87,153) 0%,rgb(32,124,202) 0%,rgb(223,195,44) 0%,rgb(221,96,46) 100%,rgb(32,124,202) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgb(30,87,153) 0%,rgb(32,124,202) 0%,rgb(223,195,44) 0%,rgb(221,96,46) 100%,rgb(32,124,202) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgb(30,87,153) 0%,rgb(32,124,202) 0%,rgb(223,195,44) 0%,rgb(221,96,46) 100%,rgb(32,124,202) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgb(30,87,153) 0%,rgb(32,124,202) 0%,rgb(223,195,44) 0%,rgb(221,96,46) 100%,rgb(32,124,202) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#207cca',GradientType=1 ); /* IE6-9 */
+
+    background: rgb(30,87,153); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(30,87,153,0.5) 0%, rgba(32,124,202,0.5) 0%, rgba(223,195,44,0.5) 0%, rgba(221,96,46,0.5) 100%, rgba(32,124,202,0.5) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(30,87,153,0.5)), color-stop(0%,rgba(32,124,202,0.5)), color-stop(0%,rgba(223,195,44,0.5)), color-stop(100%,rgba(221,96,46,1)), color-stop(100%,rgba(32,124,202,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(30,87,153,0.5) 0%,rgba(32,124,202,0.5) 0%,rgba(223,195,44,0.5) 0%,rgba(221,96,46,0.5) 100%,rgba(32,124,202,0.5) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(30,87,153,0.5) 0%,rgba(32,124,202,0.5) 0%,rgba(223,195,44,0.5) 0%,rgba(221,96,46,0.5) 100%,rgba(32,124,202,0.5) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(30,87,153,0.5) 0%,rgba(32,124,202,0.5) 0%,rgba(223,195,44,0.5) 0%,rgba(221,96,46,0.5) 100%,rgba(32,124,202,0.5) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(30,87,153,0.5) 0%,rgba(32,124,202,0.5) 0%,rgba(223,195,44,0.5) 0%,rgba(221,96,46,0.5) 100%,rgba(32,124,202,0.5) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#207cca',GradientType=1 ); /* IE6-9 */
+
+}
+    .navbar-default { padding: 10px; border: 0;  -webkit-transition: padding .3s; -moz-transition: padding .3s; transition: padding .3s;}
     .navbar-default .navbar-brand {font-size: 2em;  -webkit-transition: all .3s; -moz-transition: all .3s; transition: all .3s; }
     .navbar-default .navbar-nav>.active>a { border-radius: 3px; }
     .navbar-default.navbar-shrink {padding: 10px 0; background-color: #222;}
     .navbar-default.navbar-shrink .navbar-brand {font-size: 1.5em;}
-    .navbar-nav{ width: 98%}
+    .navbar-nav{ width: 90%}
 }
 @media(max-width:1082px){
-    header .intro-text .intro-heading, header .intro-text p{text-align: center;}
+    
+
     .reg{text-align: center;}
     .hex1{display: none;}
-    section#speakerspanel .wrap hr.hrl, section#speakerspanel .wrap hr.hrl, section#speakerspanel .wrap2 hr.hrl{width: 30%;}
-    section#speakerspanel .wrap3 hr.hrl{width: 18%;}
+    section#speakers .wrap hr.hrl, section#speakers .wrap hr.hrl, section#speakers .wrap2 hr.hrl{width: 30%;}
+    section#speakers .wrap3 hr.hrl{width: 18%;}
     .reg{margin-left: 0px;}
     header .intro-text .date p{margin-right: 0px;}
 }
 @media (min-width: 768px) and (max-width: 1280px){
-    .hexagon1- {margin: 0 0 60px -68px;}
-    .hexagon1-{width: 300px;}
+   section#paneldiscussion{padding:100px;}
 }
 
-@media(min-width: 1082px) and (max-width: 2000px){
-   
-}
-@media(min-width: 1082px) and (max-width: 1199px){
-    
-}
-@media(min-width: 992px) and (max-width: 1081px){
-  
+
 }
 @media(max-width: 1199px){
-    section#speakerspanel .wrap3{top: -120px;}
-    section#speakerspanel .wrap4{top: -130px;}
+    section#speakers .wrap3{top: -120px;}
+    section#speakers .wrap4{top: -130px;}
 }
 
-
+@media (min-width: 1200px) {
+.container{
+    max-width: 970px;
+}
+.btn-wrap .btn.highlights{
+    margin-left:20px;
+}
+}
 
 
 
