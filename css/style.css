@@ -479,7 +479,7 @@ h4.timeline-title-wrap {
 /*-----------Venue------*/
 section#venue{
    background: #ffffff;
-   padding-bottom: 0px;
+   padding: 0px;
 }
 section#venue .col-sm-6{
     padding:0px;
