@@ -190,7 +190,6 @@ header .intro-text p.intro-sub {
 }
 /*-----------highlight------*/
 section#highlights{
-    background: #f3f4f3;
 }
 section h4.section-subheading {
     margin-bottom: 75px;
@@ -479,7 +478,6 @@ h4.timeline-title-wrap {
 /*-----------Venue------*/
 section#venue{
    background: #ffffff;
-   padding: 0px;
 }
 section#venue .col-sm-6{
     padding:0px;
@@ -538,7 +536,7 @@ section#sponsors img{
     display: inline;
     margin-bottom: 15px;
 }
-section#sponsors .btn-wrap a.btn{
+section#sponsors .btn-wrap a.btn, section#highlights .btn-wrap a.btn, section#cfp .btn-wrap a.btn{
     background: transparent;
     border: 2px solid #7ebc5e;
     color: #7ebc5e;
