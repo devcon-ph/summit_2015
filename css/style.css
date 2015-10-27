@@ -23,6 +23,14 @@ section#sponsors .btn-wrap a.btn:hover, .btn-wrap .btn:hover, .btn-primary:focus
     background-color: #2dbb28;
     -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; 
 }
+
+section#sponsors h2.section-heading {
+  margin-bottom: 20px;
+}
+section#sponsors div.row.text-center {
+  margin-bottom: 50px;
+}
+
 .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
     background-image: none;
 }
