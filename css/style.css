@@ -237,7 +237,8 @@ section#speakers h5{
     margin-bottom:5px;
 }
 section#speakers p{
-    color: #8e8e8f;
+    /*color: #8e8e8f;*/
+    color: #555;
     font-size: 12px;    
 }
 section#speakers .spkr-wrap i{
