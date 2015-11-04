@@ -473,6 +473,20 @@ h4.timeline-title-wrap {
         right: auto;
     }
 }
+
+ul.timeline h5 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+table.track-schedule {
+  font-size: 80%;
+}
+table.track-schedule th small {
+  font-weight: normal;
+  font-style: italic;
+}
+
 /*-----------Venue------*/
 section#venue{
    background: #ffffff;
