@@ -320,6 +320,11 @@ h4.timeline-title-wrap {
     padding-top: 10px;
     width: 23%;
 }
+.timeline-heading img.img-circle {
+  width: 40px;
+  height: 40px;
+}
+
 .timeline {
     list-style: none;
     padding: 20px 0 20px;
