@@ -308,7 +308,7 @@ section#panelsbot {
 section#agenda{
     background: #ffffff;
 }
-section#agenda h4, section#agenda .container .nav-tabs > li a{
+section#agenda h4, section#agenda h5, section#agenda .container .nav-tabs > li a{
     color: #e77a45;
 }
 section#agenda .container .nav-tabs > li{
@@ -494,6 +494,10 @@ table.track-schedule {
 table.track-schedule th small {
   font-weight: normal;
   font-style: italic;
+}
+
+.special-tracks {
+  text-align: center;
 }
 
 /*-----------Venue------*/
